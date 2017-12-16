@@ -1,0 +1,9 @@
+{
+  "name": "tabulator_with_context_menu",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-contextmenu": "^2.5.0",
+    "jquery.tabulator": "^3.2.2"
+  }
+}
