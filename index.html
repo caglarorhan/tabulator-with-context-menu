@@ -28,7 +28,7 @@
 <div id="example-table"></div>
 
 
-<script language="JavaScript">
+<script>
     //Build Tabulator
     $("#example-table").tabulator({
         //index: 'id'; // default olarak zaten bunu kullanıyor row.getIndex() ile bu kullanılır, ama istenirse başka bir veri alanı da kullanılabilir, index:"age" gibi.... field anahtarının değerine bakıyor.
@@ -80,7 +80,8 @@
 
     //trigger AJAX load on "Load Data via AJAX" button click
     $("#ajax-trigger").click(function(){
-        $("#example-table").tabulator('setData','data.php?tip=hamData');
+        //$("#example-table").tabulator('setData','data.php?tip=hamData');
+        $("#example-table").tabulator('setData','hamData.json');
     });
 
 
